@@ -1,22 +1,5 @@
-# v1.0.0 — Personal Website, First Draft
+# V2 review build
 
-The first versioned baseline of Artur Poluektov's personal website, based on the reviewed visual and copy draft.
+Replaces the branch's V1 page with the R8 visual direction and complete locked copy v3. Includes responsive static rendering, self-hosted assets/fonts, native disclosures, conditional contact fields, explicit unavailable sending state, local legal PDFs, metadata, sitemap and consent preferences.
 
-## Included
-- One-page responsive site with mobile navigation
-- "Making Strategy Move" brand platform
-- Strategy, growth decisions, execution and AI positioning
-- Workshops, strategic sprints, projects, embedded advisory
-- Strategic Bet Framework introduction
-- Professional experience, speaking and mentoring sections
-- Contact and Cal.com Clarity Call booking links
-- Branded favicon
-
-## Before launch
-- Replace the temporary GitHub avatar image with Artur's preferred original portrait.
-- Check all professional affiliations, case references and claims.
-- Test in desktop and mobile browsers.
-- Configure a static host or GitHub Pages to publish.
-
-## Release status
-Saved in GitHub as the `v1.0.0` draft baseline. No Git tag or public deployment has been created yet.
+Production V1 is preserved on main. No deployment or merge is included. See docs/IMPLEMENTATION.md for verification and docs/DEPLOYMENT.md for pending launch integration.

@@ -3,5 +3,6 @@
   "cal": "https://cal.com/artur-poluektov-np7zrv/clarity-call",
   "linkedin": "https://www.linkedin.com/in/arturpoluektov/",
   "substack": "https://substack.com/@arturpoluektov",
-  "formEndpoint": "/api/contact"
+  "formEndpoint": "/api/contact",
+  "googleAnalyticsId": "G-MJN0TCR2MT"
 }

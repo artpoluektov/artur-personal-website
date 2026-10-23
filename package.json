@@ -8,7 +8,7 @@
   },
   "scripts": {
     "build": "node scripts/build.mjs",
-    "test": "node scripts/check.mjs && node scripts/contact-check.mjs",
+    "test": "node scripts/check.mjs && node scripts/contact-check.mjs && node scripts/analytics-check.mjs",
     "preview": "node scripts/serve.mjs"
   }
 }

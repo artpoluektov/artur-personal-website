@@ -52,3 +52,17 @@ Set RESEND_API_KEY as an encrypted Production secret (Sending access restricted 
 Enquiries are sent through Resend from contact@arturpoluektov.com to art.cpm@gmail.com; Reply-To is the validated visitor email. The key is never included in browser assets. The endpoint validates required fields, consent, size, same-origin requests, honeypot and signed expiring form tokens. Resend idempotency prevents duplicate sends for the same token. The five-attempt/ten-minute throttle is best-effort per isolate, not a global rate limit; Turnstile or a durable limit is a future hardening option if abuse occurs. No user payloads or secrets are logged. Provider failure returns an error and retains the form for retry. Success confirms provider acceptance, not inbox delivery.
 
 Verify a real test enquiry arrives before launch. Update the privacy notice for Cloudflare/Resend processing before connecting the public domain. Local static preview and Vercel do not execute Pages Functions; test delivery on the Cloudflare pages.dev deployment. No DNS or production-main changes are made by this code.
+
+
+## Google Analytics 4 — 23 October 2026
+
+Property: Artur Poluektov — Website (560554288), account 79580985.
+Web stream 16191242366, measurement ID G-MJN0TCR2MT. Portugal time; EUR.
+
+Basic opt-in consent: Google script loads only after analytics acceptance, only on arturpoluektov.com. Preview/local domains never track. Cookie settings permit withdrawal, remove GA cookies and reload to unload tracking. Preferences expire after 180 days; older essential-only choices prompt again. Ads consent stays denied; Google signals and ad personalization disabled in tag configuration. Enhanced measurement is off in the web stream.
+
+Events: page_view, clarity_call_click, generate_lead (only after confirmed form success). Form values are never passed. Page/referrer queries and fragments are stripped. Google may also generate standard session/engagement events. GA cookie lifetime is 180 days without renewal.
+
+Run npm run build and npm test before publishing. Analytics tests cover consent, rejection, withdrawal, expiry, previous preferences, URL sanitization, fixed events and preview exclusion.
+
+Reports: https://analytics.google.com/analytics/web/#/a79580985p560554288/reports/intelligenthome

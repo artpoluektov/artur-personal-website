@@ -8,3 +8,7 @@ html{scroll-padding-top:124px}.site-header{position:sticky;top:0;z-index:20}.hea
 @media(max-width:1000px){.header .wordmark{font-size:21px}}
 @media(max-width:760px){html{scroll-padding-top:104px}.header .wordmark{font-size:17px;max-width:110px}.eyebrow,.hero-copy>.text-link{font-size:19px}.about-headline{font-size:30px}.thinking-top>div{grid-row:1}.thinking-top img{grid-row:2}.logo-group{gap:36px;padding-inline:18px}.logo-group img{width:125px;height:64px}#contact fieldset{grid-template-columns:1fr}}
 @media(prefers-reduced-motion:reduce){.logo-toggle{display:none}.logo-track{width:auto}.logo-group{flex-wrap:wrap;justify-content:center;gap:24px;width:100%;padding-inline:0}.logo-group[aria-hidden]{display:none}}
+
+/* Final typography adjustments requested by Artur. */
+.about-copy h2{font-size:clamp(36px,3.6vw,50px)}.about-headline{font-size:32px}.thinking-links>.text-link{font-size:15px;font-weight:400}
+@media(max-width:760px){.about-copy h2{font-size:36px}.about-headline{font-size:27px}}

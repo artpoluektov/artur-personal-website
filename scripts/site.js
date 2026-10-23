@@ -23,3 +23,6 @@ document.querySelectorAll('[data-consent]').forEach(b=>b.addEventListener('click
 document.querySelectorAll('.cookie-open').forEach(b=>b.addEventListener('click',()=>dialog.showModal()));
 document.querySelector('.dialog-close').addEventListener('click',()=>dialog.close());
 document.querySelector('#save-consent').addEventListener('click',()=>saveChoice('custom'));
+
+const logoToggle=document.querySelector('.logo-toggle');
+logoToggle.addEventListener('click',()=>{const paused=logoToggle.getAttribute('aria-pressed')!=='true';logoToggle.setAttribute('aria-pressed',String(paused));logoToggle.closest('.companies').classList.toggle('is-paused',paused);logoToggle.textContent=paused?'Resume logos':'Pause logos'});

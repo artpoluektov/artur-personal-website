@@ -53,3 +53,11 @@ Legal PDFs are the supplied originals, unchanged. The available Privacy PDF does
 ## Outstanding before production
 
 Artur's visual approval, real form provider/endpoint and delivery tests, accurate launch Privacy Policy, final share-image approval, server-specific HTTPS/canonical setup and post-deployment performance/search-console checks. No Lighthouse/Core Web Vitals field measurements, external schema-validator submission or live backend delivery are claimed. V1/main remains unchanged; V2 is for PR review only.
+
+## Feedback preview — 23 October 2026
+
+Implemented the completed feedback batch: sticky header and serif wordmark; brand coral accents; About immediately after hero with full biography preserved in a wider centered block; all 13 supplied monochrome company logos with slow rightward motion, pause control and reduced-motion fallback; matched service preview/body type sizes; testimonial credits; speaking introduction beside photo on desktop and above on mobile; linked mentoring programs; purple FAQ accents; compact two-column desktop interest choices; coral submit; aligned footer rows.
+
+Footer uses a light purple tint (#b79aef) for legibility on its dark background. Coral emphasis links/credits use 19px semibold to meet large-text contrast. Marketing content.json and approved-copy.md are unchanged. Product Circle asset was not substituted for Productized.
+
+Pending before launch: connect and test a real same-origin Cloudflare contact endpoint and email delivery provider. The unavailable notice and disabled submission remain until that connection is working; no successful delivery is simulated. No production deployment, DNS change or main merge authorized at this review stage.

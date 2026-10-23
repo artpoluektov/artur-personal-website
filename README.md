@@ -1,47 +1,34 @@
-# Artur Poluektov | Making Strategy Move
+# Artur Poluektov website V2
 
-**Personal website — first draft, version 1.0.0**
+Static HTML/CSS/JavaScript built from the approved copy v3 and Figma R8. No framework, package installation, client-side content fetch or hosting platform dependency.
 
-One-page, responsive website for Artur Poluektov, a strategic advisor and fractional leader helping leadership teams make better growth bets and run them.
+## Build and preview
 
-## Technology
-
-Static HTML, CSS and vanilla JavaScript, with no build step or backend.
-
-## View locally
-
-Open `index.html` directly in a browser, or run:
+Requires Node.js 22 or newer. No npm install needed.
 
 ```sh
-python3 -m http.server 8000
+npm run build
+npm test
+npm run preview
 ```
 
-Then visit `http://localhost:8000`.
+Open http://127.0.0.1:4173. Preview responses carry `X-Robots-Tag: noindex, nofollow`. Only deploy the contents of `dist/`, after approval.
 
-## Included
+- `content.json`: all page copy, form labels, options and functional UI strings.
+- `config.json`: canonical domain, external URLs and optional same-origin form endpoint.
+- `scripts/build.mjs`: generates static HTML, metadata, sitemap and deployment folder.
+- `scripts/site.js`: progressive interactions, form validation and consent preferences.
+- `styles/`: responsive layout and self-hosted fonts.
+- `docs/approved-copy.md`: unchanged copy source for regression checks.
+- `docs/IMPLEMENTATION.md`: source mapping, QA and known limitations.
+- `docs/DEPLOYMENT.md`: self-hosting and rollback instructions.
 
-- Responsive layout and mobile navigation
-- Midnight-navy, titanium-inspired, coral-accented personal branding
-- Growth challenges, advisory domains and engagement formats
-- Strategic Bet Framework overview
-- Professional background, speaking, mentoring and contact sections
-- Working links to Artur's existing Cal.com booking page
-- Branded favicon
+## Production boundary
 
-## Before publishing
+This branch is `website-v2`. The V1 on `main` remains the production reference. Do not merge or deploy V2 until Artur approves. No GitHub Pages or deployment workflow is added.
 
-1. Replace the current **GitHub avatar URL**, used temporarily in the homepage, with a properly licensed, high-resolution original portrait.
-2. Review client names, credentials and speaking/mentoring affiliations for accuracy and permission.
-3. Confirm the booking URL, LinkedIn URL and mobile layout.
-4. Add legal/privacy disclosures appropriate for the final hosting configuration.
-5. Add an Open Graph preview image and consider self-hosting Google Fonts.
+## Contact form
 
-## Deployment
+The form is **not connected to a receiving backend**. `formEndpoint` is null, the send button is disabled and an explicit email fallback is visible. Fields, validation and interest routing can be reviewed. No fake success state or simulated submission is used.
 
-Can be hosted on GitHub Pages or any static website host. **Pushing this code does not automatically publish a live site.** 
-
-## Versioning
-
-This repository establishes the initial **v1.0.0 draft baseline** for subsequent iterations. See [RELEASE_NOTES.md](RELEASE_NOTES.md).
-
-**Note:** Version 1.0.0 denotes a first documented draft, not production readiness. A Git tag is not yet created.
+To enable it, implement and test the server contract in `docs/DEPLOYMENT.md`, name the processor in the Privacy Policy, then configure a same-origin `/api/` URL and rebuild. No secrets belong in this repository.

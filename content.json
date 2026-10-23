@@ -1,0 +1,385 @@
+{
+  "hero": {
+    "eyebrow": "MAKING STRATEGY MOVE",
+    "title": "I help leadership teams make better growth bets and run them.",
+    "cta": "Book a free Clarity Call",
+    "secondary": "See how we can work together"
+  },
+  "situations": {
+    "title": "You might recognize this",
+    "cards": [
+      {
+        "body": "Your brand promises one thing. Your customers live another. They repeat themselves, teams hand problems across departments and nobody owns the whole journey. The offer is good. The experience hasn't caught up.",
+        "tag": "Customer Experience"
+      },
+      {
+        "body": "You've merged, and now you have two of everything: two portfolios, two ways of selling, two ideas of where to go next. Or you're a service business that wants to become a product business, with a different buyer and a different economics. Either way, someone has to decide what stays, what joins and what ships first.",
+        "tag": "Product Strategy"
+      },
+      {
+        "body": "The market you built for is getting smaller, or you're ready to try a new one. What worked at home may not travel as it is. Pricing, the offer and the way your people work all move with it.",
+        "tag": "International Expansion"
+      },
+      {
+        "body": "Your offer has real value. Customers still can't see how it differs from the next one. The positioning sounds like everyone else's, and the conversation keeps drifting back to price.",
+        "tag": "Marketing Strategy"
+      },
+      {
+        "body": "AI is reshaping your industry, and the conversation inside the business hasn't caught up. Everyone agrees something should change. Nobody agrees on what, or what's worth protecting.",
+        "tag": "Business Transformation"
+      }
+    ],
+    "closing": "If one of these is you, let's talk."
+  },
+  "bets": {
+    "title": "Strategic bets",
+    "intro": [
+      "Every challenge above comes down to the same thing: a decision, and the commitment behind it. Commit your business to one direction and the impact is significant. Almost anything can be reversed, but at a price, and never overnight. That is what makes it strategic.",
+      "It is also why I call it a bet. Your resources are finite, so backing one direction means deliberately not backing another. The risk is real, and it doesn't disappear whether you decide alone or bring me in. It can be reduced. On the other side sits the reward: growth, and a business that stays relevant."
+    ],
+    "alternativesIntro": "There are different ways to address a strategic bet without me:",
+    "alternatives": [
+      {
+        "title": "Do it yourself, with your team.",
+        "body": "They have probably never dealt with this problem before, and learning it from a book or a course takes valuable time. They also have no spare time to sit with it fully. They sit too close to the problem, and so might you, which leaves no unattached view. And when the team isn't aligned, someone inside rarely fixes that."
+      },
+      {
+        "title": "Hire a large consultancy.",
+        "body": "You get a beautiful deck, at high cost, and then you execute it yourself. I have worked in one of these firms, and I have hired them. They are smart people, and I like the decks. But what they recommend sometimes can't be implemented within your own constraints."
+      },
+      {
+        "title": "Ask AI.",
+        "body": "A powerful tool, getting better every day. I use it, and so should you. But it can't read the room, it only knows what fits in its context window and it has nothing to lose. It will happily tell you that you're absolutely right."
+      }
+    ],
+    "closing": "If one of those works for you, use it. If none does, that is where I come in. I read the room, align the team and stay through the execution, with my reputation on the line.",
+    "cta": "Book a free Clarity Call",
+    "framework": "I can't remove the risk, but I can reduce it. We test what could break the bet, starting with the cheapest tests, before the real money goes in. That is the backbone of my Strategic Bet Framework.",
+    "signoff": "Making strategy move."
+  },
+  "how": {
+    "title": "How we can work together",
+    "formats": [
+      {
+        "title": "It starts with a Clarity Call",
+        "body": "A free 30-minute call. We look at where you stand and which strategic bet you have in your hands. You leave with clarity on that, and we both know whether there is a fit."
+      },
+      {
+        "title": "Workshops & Retreats",
+        "body": "When your team needs alignment or direction, a workshop can get you there. I plan, design, facilitate and debrief the session, and follow up afterward. From two hours to two days, in person or remote."
+      },
+      {
+        "title": "Strategic Sprint",
+        "body": "One sprint, one bet. Four to eight weeks of focused work on a specific strategic bet. The length depends on how complex the bet is, how big the organization is and how available your team is. Most of the work happens remotely, and I join you in person at key moments. You end with a clear direction on how to execute the bet, clear alignment around it and clear trade-offs."
+      },
+      {
+        "title": "Fractional",
+        "body": "For bets that need someone beside you through execution. I stay on as an advisor, or as a fractional leader a couple of days a week."
+      },
+      {
+        "title": "Bespoke Projects",
+        "body": "For a bigger problem with a defined scope, which needs more time and more expertise than I can offer alone. We agree a scope, deliverables and a timeline in a proper statement of work. I assemble the team and manage it, and every expert is experienced and trusted."
+      }
+    ],
+    "closing": "You don't need to choose a format before we speak.",
+    "cta": "Book a free Clarity Call"
+  },
+  "testimonials": {
+    "title": "What it's like to work with me",
+    "quotes": [
+      {
+        "text": "We went from scattered ideas to a clear strategy and priorities for next year.",
+        "by": "João Moita, Founder, Product Circle"
+      },
+      {
+        "text": "Artur helped us think from the point of view of the user, a special skill for scaling.",
+        "by": "Jess Tyrrell, Partner, Pitch & Growth"
+      }
+    ]
+  },
+  "about": {
+    "title": "About Artur",
+    "headline": "I've been on both sides of the decision.",
+    "paragraphs": [
+      "I'm Artur Poluektov. In 18 years across strategy, fintech, consulting, design thinking and digital innovation, I've advised the decision-maker, and I've been the person accountable for the outcome. My roles have included Managing Director, COO, Head of Strategy and CPO.",
+      "I was born in the Soviet Union and immigrated to Portugal at a young age. Living in two cultures taught me to adapt, read a room and translate between different ways of seeing the world. Playing away is different from playing at home. Working with the Dutch taught me to be direct and with North Americans to be entrepreneurial and action oriented. I tell you what I see, and I ask the questions nobody else is asking.",
+      "Working with me feels collaborative. I bring your customers into the room, and your team with them, because strategy built without the people it is for rarely survives contact with them. I build on the skills around the table and co-create the answer with you. I also combine creativity with structure, and I know when each one is needed. I like art, and I like math and precision. The best work uses both.",
+      "If your customers aren't in the room yet, that is where we start."
+    ],
+    "cta": "Learn more",
+    "companies": [
+      "SIBS",
+      "Deloitte Digital",
+      "Koos",
+      "Productized",
+      "A2F Consulting",
+      "Starweaver",
+      "Sonae",
+      "ANA Vinci Airports",
+      "PLMJ",
+      "OLX",
+      "Solvay",
+      "Cofidis",
+      "Pitch & Growth"
+    ]
+  },
+  "thinking": {
+    "title": "Original thinking",
+    "intro": "If you like how I think, there is more of it.",
+    "proof": "I've been speaking for 10 years, in Portugal, London and Cape Verde, and at remote events across Europe. For startups and corporates, on small stages and big ones.",
+    "stage": "On stage. Keynotes, panels and corporate events, in person or remote, in English, Portuguese or Russian. Each talk starts with a question I work through with clients. The topics are the ones I work on:",
+    "topics": [
+      {
+        "title": "Customer experience.",
+        "body": "Why the customer belongs in the room, how to delight them and why it matters more as AI makes everything look the same."
+      },
+      {
+        "title": "Strategic bets.",
+        "body": "How to run your business with a bet mindset: place bets, weigh the trade-offs, commit what's needed and de-risk your strategy."
+      },
+      {
+        "title": "International expansion.",
+        "body": "How to build a business beyond borders, with the challenges you will face and the benefits that make it worth it."
+      },
+      {
+        "title": "Product innovation.",
+        "body": "What to build in the age of AI, how to keep the customer at the center and how to sell it."
+      },
+      {
+        "title": "Thriving through change.",
+        "body": "When the paradigm shifts, you can't stay still. How to play offense, and bring your team with you."
+      }
+    ],
+    "closing": "You get experience from the work itself, a challenge to comfortable assumptions and something useful to take back to your team.",
+    "writing": "In writing. I write on Substack about strategy, customers, growth and the choices businesses make when the next move is uncertain.",
+    "cta": "Book me as a speaker",
+    "secondary": "Subscribe on Substack"
+  },
+  "mentoring": {
+    "title": "Mentoring",
+    "body": "I believe in giving back. I mentor pro bono through four programs: Nova SBE Voice Leadership, Lisboa UX, Unicorn Factory Lisboa and FinTech House. If you are part of one of them, find me through them. Otherwise, contact me. I handpick the founders and leaders I mentor, and my time is limited."
+  },
+  "faq": {
+    "title": "A few questions you may have",
+    "items": [
+      {
+        "title": "What happens on a Clarity Call?",
+        "body": "A free 30-minute conversation. We look at where you stand and which strategic bet you have in your hands. You don't need to define your challenge in advance or choose a format. Bring your context. There is no obligation, and we both leave knowing whether there is a fit."
+      },
+      {
+        "title": "Who do you work with?",
+        "body": "Founders and leadership teams who own the growth call, with a team and budget already in place. Usually scale-ups and growing companies, or mid-market businesses in transformation, from a small team up to about 1,000 people. Mostly B2B and B2B2C, where technology plays a real role in how they grow. Very early-stage startups are usually too early for this kind of work, and I'm happy to point you to better help."
+      },
+      {
+        "title": "How do I know if we're a good fit?",
+        "body": "It goes both ways. I work directly. I ask questions, challenge assumptions and bring your customers into the room. If you want someone to confirm a decision you've already made, I'm probably not the right person."
+      },
+      {
+        "title": "Do you stay for the execution?",
+        "body": "Yes. A Strategic Sprint ends with a clear direction, alignment and trade-offs. If the bet needs someone beside you through execution, I stay on as a fractional leader or advisor. If it needs more expertise than I can offer alone, I assemble and manage a team of experienced, trusted experts under an agreed scope."
+      },
+      {
+        "title": "Do you work remotely or in person?",
+        "body": "Both. Workshops can be in person or remote. Sprints and ongoing work are mostly remote, and I join you in person at key moments. I work in English, Portuguese and Russian, mostly with teams in Europe."
+      },
+      {
+        "title": "What does an engagement cost?",
+        "body": "It depends on the scope, the format, the complexity of the challenge, the size of your organization and the value the work creates. I'll share a clear proposal once we understand the challenge. The Clarity Call is free. The work that follows is paid."
+      },
+      {
+        "title": "Is your mentoring free?",
+        "body": "Through the four programs listed in the mentoring section, yes. Outside them, mentoring is paid, at a friendly fee we agree together. I handpick my mentees, and my time is limited."
+      }
+    ]
+  },
+  "contact": {
+    "title": "Let's talk",
+    "intro": "If one of the challenges above sounds like yours, the best next step is a conversation.",
+    "cta": "Book a free Clarity Call",
+    "write": "Prefer to write? Tell me what you're working through. Speaking requests and mentoring questions are welcome too.",
+    "formTitle": "Contact form",
+    "fields": [
+      {
+        "name": "name",
+        "label": "Full name *",
+        "type": "text",
+        "autocomplete": "name",
+        "error": "Please add your full name."
+      },
+      {
+        "name": "email",
+        "label": "Email *",
+        "type": "email",
+        "autocomplete": "email",
+        "error": "Please add a valid email address."
+      },
+      {
+        "name": "company",
+        "label": "Company website *",
+        "type": "text",
+        "autocomplete": "url",
+        "error": "Please add your company website."
+      },
+      {
+        "name": "role",
+        "label": "Role *",
+        "options": [
+          "Founder or CEO",
+          "Leadership team member",
+          "Head of department or business unit",
+          "Investor or advisor",
+          "Other"
+        ],
+        "error": "Please choose your role."
+      },
+      {
+        "name": "message",
+        "label": "What are you working through? *",
+        "type": "textarea",
+        "error": "Please tell me a little about what you are working through."
+      }
+    ],
+    "interestsLabel": "What are you interested in?",
+    "interests": [
+      "Workshops & Retreats",
+      "Strategic Sprint",
+      "Fractional",
+      "Bespoke Projects",
+      "Speaking",
+      "Mentoring",
+      "Not sure yet"
+    ],
+    "optional": [
+      {
+        "name": "timeline",
+        "label": "Timeline",
+        "options": [
+          "Now",
+          "Within three months",
+          "Exploring"
+        ]
+      },
+      {
+        "name": "budget",
+        "label": "Do you have a budget set for this?",
+        "options": [
+          "Yes",
+          "Being defined",
+          "Not yet"
+        ]
+      },
+      {
+        "name": "source",
+        "label": "How did you hear about me?",
+        "options": [
+          "LinkedIn",
+          "Substack",
+          "Referral",
+          "Event or talk",
+          "Search",
+          "Other"
+        ]
+      }
+    ],
+    "eventFields": [
+      "Event name and date",
+      "Audience and format (in person or remote)"
+    ]
+  },
+  "header": {
+    "wordmark": "ARTUR POLUEKTOV",
+    "nav": [
+      {
+        "label": "How I work",
+        "href": "#how"
+      },
+      {
+        "label": "About",
+        "href": "#about"
+      },
+      {
+        "label": "Original thinking",
+        "href": "#thinking"
+      },
+      {
+        "label": "Contact",
+        "href": "#contact"
+      }
+    ],
+    "cta": "Book a Clarity Call"
+  },
+  "footer": {
+    "wordmark": "ARTUR POLUEKTOV",
+    "tagline": "Making strategy move.",
+    "location": "Based in Lisbon | Working internationally",
+    "explore": "Explore",
+    "follow": "Follow",
+    "legal": "Legal",
+    "nav": [
+      {
+        "label": "How I work",
+        "href": "#how"
+      },
+      {
+        "label": "About",
+        "href": "#about"
+      },
+      {
+        "label": "Original thinking",
+        "href": "#thinking"
+      },
+      {
+        "label": "Mentoring",
+        "href": "#mentoring"
+      },
+      {
+        "label": "FAQ",
+        "href": "#faq"
+      },
+      {
+        "label": "Contact",
+        "href": "#contact"
+      }
+    ],
+    "linkedin": "LinkedIn",
+    "substack": "Substack",
+    "privacy": "Privacy Policy",
+    "terms": "Terms & Conditions",
+    "settings": "Cookie settings",
+    "copyright": "© 2026 Artur Poluektov. All rights reserved."
+  },
+  "ui": {
+    "consent": "I agree that my details are used to reply to this message. See the",
+    "consentError": "Please tick the box so I can reply to you.",
+    "withdraw": "You can withdraw this at any time by emailing art.cpm@gmail.com.",
+    "send": "Send message",
+    "failed": "Something went wrong. Please try again, or write to art.cpm@gmail.com.",
+    "thanks": "Thank you for getting in touch. I'll read your message and get back to you personally.",
+    "unavailable": "The contact form is not available yet. Please write to art.cpm@gmail.com.",
+    "cookies": "Cookies",
+    "cookieText": "I use essential cookies to make this site work. With your permission, I also use analytics cookies to understand how the site is used. It is your choice, and you can change it at any time.",
+    "accept": "Accept",
+    "reject": "Reject",
+    "settings": "Settings",
+    "cookieSettings": "Cookie settings",
+    "cookieIntro": "Choose what you are comfortable with. Nothing except the essential cookies is set until you say yes.",
+    "essential": "Essential",
+    "essentialBody": "These keep the site working and remember your choice. They cannot be switched off.",
+    "analytics": "Analytics",
+    "analyticsBody": "These help me understand how the site is used, so I can improve it.",
+    "analyticsUnavailable": "Analytics is not installed. No analytics cookies are set.",
+    "save": "Save choices",
+    "close": "Close",
+    "menu": "Menu",
+    "skip": "Skip to content",
+    "notFound": "This page doesn't exist.",
+    "home": "Back to the home page"
+  },
+  "meta": {
+    "title": "Artur Poluektov | Growth advisor for leadership teams",
+    "description": "I help leadership teams make better growth bets and run them. Advisory, workshops and fractional leadership from Lisbon, working internationally.",
+    "portraitAlt": "Portrait of Artur Poluektov",
+    "speakingAlt": "Artur Poluektov speaking on stage at an AICEP event in Cape Verde",
+    "shareAlt": "Artur Poluektov. Making strategy move."
+  }
+}

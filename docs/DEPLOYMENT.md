@@ -43,3 +43,12 @@ No analytics, third-party scripts, embeds or tracking pixels are installed. Acce
 ## External scheduling
 
 Cal.com and Substack are ordinary outbound links. Confirm the Cal.com event is called Clarity Call, lasts 30 minutes and asks only company website and context. The website does not modify the event.
+
+## Cloudflare Pages contact delivery
+
+Production branch: website-v2. Build: npm run build && npm test. Output: dist.
+Set RESEND_API_KEY as an encrypted Production secret (Sending access restricted to arturpoluektov.com). Redeploy after changing secrets. The root functions/api/contact.js is bundled automatically by Pages; dist/_routes.json limits invocation to /api/*.
+
+Enquiries are sent through Resend from contact@arturpoluektov.com to art.cpm@gmail.com; Reply-To is the validated visitor email. The key is never included in browser assets. The endpoint validates required fields, consent, size, same-origin requests, honeypot and signed expiring form tokens. Resend idempotency prevents duplicate sends for the same token. The five-attempt/ten-minute throttle is best-effort per isolate, not a global rate limit; Turnstile or a durable limit is a future hardening option if abuse occurs. No user payloads or secrets are logged. Provider failure returns an error and retains the form for retry. Success confirms provider acceptance, not inbox delivery.
+
+Verify a real test enquiry arrives before launch. Update the privacy notice for Cloudflare/Resend processing before connecting the public domain. Local static preview and Vercel do not execute Pages Functions; test delivery on the Cloudflare pages.dev deployment. No DNS or production-main changes are made by this code.

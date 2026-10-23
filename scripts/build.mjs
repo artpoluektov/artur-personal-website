@@ -49,3 +49,5 @@ writeFileSync('robots.txt',`User-agent: *\nAllow: /\n\nSitemap: ${cfg.domain}sit
 writeFileSync('sitemap.xml',`<?xml version="1.0" encoding="UTF-8"?><urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"><url><loc>${cfg.domain}</loc></url></urlset>\n`);
 rmSync('dist',{recursive:true,force:true});mkdirSync('dist');for(const x of ['index.html','404.html','robots.txt','sitemap.xml','assets','styles'])cpSync(x,'dist/'+x,{recursive:true});mkdirSync('dist/scripts');cpSync('scripts/site.js','dist/scripts/site.js');
 console.log('Built static website in dist/');
+
+writeFileSync('dist/_routes.json',JSON.stringify({version:1,include:['/api/*'],exclude:[]}));

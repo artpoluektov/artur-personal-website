@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://www.arturpoluektov.com/sitemap.xml
+Sitemap: https://arturpoluektov.com/sitemap.xml

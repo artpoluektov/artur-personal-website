@@ -1,7 +1,7 @@
 {
-  "domain": "https://www.arturpoluektov.com/",
+  "domain": "https://arturpoluektov.com/",
   "cal": "https://cal.com/artur-poluektov-np7zrv/clarity-call",
   "linkedin": "https://www.linkedin.com/in/arturpoluektov/",
   "substack": "https://substack.com/@arturpoluektov",
-  "formEndpoint": null
+  "formEndpoint": "/api/contact"
 }

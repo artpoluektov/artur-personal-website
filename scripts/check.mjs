@@ -15,7 +15,7 @@ assert.equal((html.match(/<h1\b/g)||[]).length,1);assert.equal((html.match(/<mai
 const ids=[...html.matchAll(/\bid="([^"]+)"/g)].map(m=>m[1]);assert.equal(new Set(ids).size,ids.length,'duplicate ids');
 for(const [,url]of html.matchAll(/(?:src|href)="([^"]+)"/g)){if(url.startsWith('#'))assert.ok(ids.includes(url.slice(1).split('?')[0]),`Broken anchor ${url}`);else if(!/^(https:|mailto:)/.test(url))assert.ok(existsSync(decode(url)),`Missing asset ${url}`)}
 for(const [,tag]of html.matchAll(/(<a\b[^>]+target="_blank"[^>]*>)/g))assert.ok(tag.includes('rel="noopener"'));
-assert.ok(html.includes('type="submit" disabled'),'unconfigured form must not send');
+const cfg=JSON.parse(readFileSync('config.json'));assert.equal(html.includes('type="submit" disabled'),!cfg.formEndpoint,'Form availability matches configuration');
 assert.equal(c.testimonials.quotes.length,2);assert.equal(c.faq.items.length,7);assert.equal(c.situations.cards.length,5);
 assert.ok(/<details open>/.test(html));assert.ok(!/<iframe/.test(html));assert.ok(!/<script[^>]+src="https:/.test(html));
 JSON.parse(html.match(/<script type="application\/ld\+json">(.*?)<\/script>/)[1]);

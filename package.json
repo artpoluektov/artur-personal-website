@@ -3,6 +3,12 @@
   "version": "2.0.0",
   "private": true,
   "type": "module",
-  "engines": {"node": ">=22"},
-  "scripts": {"build": "node scripts/build.mjs", "test": "node scripts/check.mjs", "preview": "node scripts/serve.mjs"}
+  "engines": {
+    "node": ">=22"
+  },
+  "scripts": {
+    "build": "node scripts/build.mjs",
+    "test": "node scripts/check.mjs && node scripts/contact-check.mjs",
+    "preview": "node scripts/serve.mjs"
+  }
 }
